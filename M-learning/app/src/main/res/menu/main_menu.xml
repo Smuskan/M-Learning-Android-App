@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/termscondition"
+        android:title="Terms and Conditions"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/AboutApp"
+        android:title="About App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shareApp"
+        android:title="Share App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rateApp"
+        android:title="Rate this App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aboutDeveloper"
+        android:title="About Developers"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

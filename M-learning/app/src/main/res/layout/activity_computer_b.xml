@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerB">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBarhome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorPrimary"
+                app:title="@string/app_name"
+                app:titleTextColor="@color/colorWhite" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="15dp"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/sem1_tv"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Select Semester"
+                  android:textAlignment="center"
+                  android:textSize="18sp"
+                  android:textColor="@color/black"
+                  />
+
+              <Spinner
+                  android:id="@+id/sem_spineer1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+              <TextView
+                  android:id="@+id/ser1_tv"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Select service"
+                  android:textAlignment="center"
+                  android:textSize="18sp"
+                  android:textColor="#000000"
+                  />
+
+              <Spinner
+                  android:id="@+id/servicess"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+              <Button
+                  android:id="@+id/viewSyllabus"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="15dp"
+                  android:background="@drawable/btn_design_myaccount"
+                  android:onClick="btnViewSyllabus"
+                  android:padding="10dp"
+                  android:text="View Files"
+                  android:textColor="#FFFFFF"
+                  android:textSize="18sp"
+                  android:textStyle="bold" />
+
+              <androidx.cardview.widget.CardView
+                  android:id="@+id/cardview"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                 <ScrollView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="vertical">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text="Result"
+                             android:textAlignment="center"
+                             android:textSize="22sp"
+                             android:textColor="@color/colorPrimary"
+                             android:id="@+id/txt_result"
+                             />
+
+                         <ListView
+                             android:id="@+id/myListView"
+                             android:layout_width="match_parent"
+                             android:layout_height="120dp"
+                             android:layout_below="@+id/txt_result"
+                             android:padding="20dp"
+                             />
+
+                     </LinearLayout>
+
+                 </ScrollView>
+
+
+              </androidx.cardview.widget.CardView>
+
+          </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsCondition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBartermscondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_head"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_head1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_personal_info"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_personal_info_details"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_nonpersonal_info"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_nonpersonal_info_details"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infocollect"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infocollectdetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infouse"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infopersonal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infopersonaldetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infononpersonal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infononpersonaldetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ThirdPart"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ThirdPartdetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/security"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/securitydetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amendmants"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amendmantsdetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/policy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/policydetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacting"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contactingdetails"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

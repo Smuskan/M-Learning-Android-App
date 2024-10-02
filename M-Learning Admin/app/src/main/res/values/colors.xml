@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B536D</color>
+    <color name="colorPrimaryLite">#40809D</color>
+    <color name="colorPrimaryLite2">#2D40809D</color>
+    <color name="colorPrimaryDark">#164257</color>
+    <color name="colorAccent">#1B536D</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="textInputLayout">#96ffffff</color>
+    <color name="black">#FF000000</color>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_imageview"
+            android:layout_gravity="center"
+            android:src="@drawable/profile_nav_logo"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_width="3dp"
+            android:layout_below="@+id/myaccount_toolbar"
+            app:civ_border_color="#FCFCFC"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_imageview"
+            android:layout_margin="20dp">
+            <RelativeLayout
+                android:id="@+id/rlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/cv"
+                        android:orientation="vertical"
+                        android:paddingBottom="50dp"
+                        android:layout_alignLeft="@+id/cv">
+
+                        <TextView
+                            android:id="@+id/txtname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="FULL NAME"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtaname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:id="@+id/txtemail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Email ID"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtaemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/txt_mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Mobile Number"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_amobileno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_idno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="ID No."
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_aidno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_college"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="College Name"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_acollege"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cv"
+                    android:layout_alignLeft="@+id/cv"
+                    android:layout_alignRight="@+id/cv"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_marginRight="35dp"
+                    android:elevation="10dp">
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_design_myaccount"
+                        android:text="UPDATE Profile"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

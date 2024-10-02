@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateApp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarRatingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How Was your Experience With Us ?"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_margin="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:id="@+id/ratingBar"
+        android:progressTint="#D1A10F"
+        />
+
+    <EditText
+        android:id="@+id/feedbackdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Give us your Valuable Feedback: Your Valuable Feedback give us idea at which part of application needs improvement and more. "
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/feedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="SUBMIT FEEDBACK"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#EEE7E7"
+        android:onClick="feedbackSubmit"
+        />
+
+    <TextView
+        android:id="@+id/maybelater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maybe Later !"
+        android:textAlignment="center"
+        android:textSize="22dp"
+
+        />
+
+</LinearLayout>
